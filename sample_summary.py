@@ -78,7 +78,8 @@ def write_run_summary_xlsx(directory, run_id, df_merged):
 def main():
     """
     """
-    ASSAY_DIR = "/ext/path/DRL/Molecular/NGS21/ASSAYS"
+    #ASSAY_DIR = "/ext/path/DRL/Molecular/NGS21/ASSAYS"
+    ASSAY_DIR = "/Users/kja3/PycharmProjects/sample_summary"
     args = parse_sample_id_args()
     assay_info = args.p.split('-')
     assay = assay_info[0]
